@@ -1,35 +1,40 @@
 # Customer Support Drafts
 
-💬 **AI-powered customer support reply drafts**
+Demonstrates a support-reply drafting workflow using local templates and demo logic.
 
-## Description
-Transform raw customer messages into professional, empathetic, and structured support replies that agents can quickly edit and send. Reduces response time while maintaining quality and consistency.
+## Status
 
-## Features
-- 🎯 **Professional Tone**: Empathetic and customer-focused language
-- ⚡ **Instant Drafts**: Generate reply templates in seconds
-- 📋 **Structured Format**: Clear greeting, response, and closing
-- 🔧 **Editable**: Easy to customize for specific situations
-- 📱 **Time-Saving**: Reduces agent response time by 70%
+**Browser-based portfolio demo.** The checked-in `script.js` uses local
+JavaScript, rules, templates or simulated responses. It does not call a hosted
+LLM API or run a trained local model.
 
-## Perfect For
-- Customer support teams
-- Help desk operations
-- Service-based businesses
-- E-commerce support
-- SaaS companies
+Generated suggestions are demonstration outputs and should be reviewed manually.
 
-## Technical Details
-- **Technology**: JavaScript, HTML/CSS, AI Prompt Engineering
-- **Architecture**: Browser-based with API integration capability
-- **AI Ready**: Compatible with OpenAI, Gemini, and other LLMs
+## Try It Locally
 
-## Getting Started
-```bash
-git clone https://github.com/Thankswewin/customer-support-drafts.git
-cd customer-support-drafts
-open index.html
-```
+1. Clone this repository.
+2. Open `index.html` in a modern browser.
+3. Use sample or non-sensitive inputs to explore the workflow.
+
+No npm or Python installation is required for this standalone demo.
+Some fonts or styles may load from external CDNs.
+
+## Repository Layout
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Interface and page markup |
+| `script.js` | Local workflow and demonstration logic |
+| `style.css` | Styling |
+
+## Development
+
+A real model integration would be a separate implementation. Keep provider
+credentials on a backend, never in browser JavaScript, and add appropriate
+validation and tests before using the tool with customer data.
 
 ## Author
-**Philemon Ofotan** | GitHub: [@Thankswewin](https://github.com/Thankswewin) | Email: pheelymon@gmail.com
+
+[Philemon Ofotan](https://github.com/Thankswewin), founder of
+[Archyy Studio](https://archyy.live).
+
